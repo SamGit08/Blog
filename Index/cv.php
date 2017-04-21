@@ -10,7 +10,7 @@
   </head>
   <body>
     <section class="bloc">
-      <nav>
+      <nav class="navigation">
         <ul>
           <li><a href="#section1">Compétences</a></li>
           <li><a href="#section2">Expériences</a></li>
@@ -126,6 +126,6 @@
 </script>
     <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
     <script src="Js/animation.js" type="text/javascript"></script>
-    <footer><a id="lien" href="Index/index.php">Accueil</a></footer>
+    <footer><a id="lien" href="index.php">Accueil</a></footer>
   </body>
 </html>

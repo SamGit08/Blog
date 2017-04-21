@@ -1,0 +1,312 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url("/Blog/images/apple.jpeg");
+
+  .bloc {
+    color: white;
+    height: 670px;
+    background-color: rgba(0, 0, 0, 0.4);
+    text-shadow: 0 0 3px #ffcc58;
+    font-family: "Fjalla One";
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    animation-name: intro;
+    animation-duration: 3s;
+    nav{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: relative;
+      bottom: 142px;
+      background-color: rgba(0, 0, 0, 0.5);
+      height: 60px;
+      a:link, a:visited{
+        text-decoration: none;
+        padding-right: 10px;
+        font-family: "Fjalla One";
+        font-size: 20px;
+        text-shadow: 0 0 3px #ffcc58;
+        color: white;
+        height: 35px;
+      }
+      a:hover{
+        font-family: "Fjalla One";
+        font-size: 20px;
+        color: white;
+        text-shadow: 0 0 15px #ffcc58;
+        transition: 1s;
+      }
+      ul{
+        display: flex;
+        flex-direction: row;
+        height: 35px;
+        li{
+          a:link, a:visited{
+            text-decoration: none;
+            font-family: "Fjalla One";
+            font-size: 20px;
+            text-shadow: 0 0 3px #ffcc58;
+            color: white;
+          }
+          a:hover{
+            font-family: "Fjalla One";
+            font-size: 20px;
+            color: white;
+            text-shadow: 0 0 15px #ffcc58;
+            transition: 1s;
+          }
+        }
+      }
+    }
+  }
+
+    #comp{
+      height: 570px;
+      background-color: rgba(75, 117, 117, 0.4);
+      display: flex;
+      flex-direction: column;
+    }
+
+
+    #competences{
+      color: white;
+      font-size: 60px;
+      text-shadow: 0 0 5px #6cefef;
+      font-family: "Fjalla One";
+      text-align: center;
+    }
+
+    .infosComp{
+      box-shadow: 0px 5px 5px black;
+      border: 2px solid white;
+      height: 375px;
+      width: 900px;
+      margin: 15px 0 0 150px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      border-radius: 10px;
+    }
+
+    #exp {
+      height: 570px;
+      background-color: rgba(117, 75, 75, 0.4);
+      display: flex;
+      flex-direction: column;
+    }
+
+    #experiences {
+      color: white;
+      font-size: 60px;
+      text-shadow: 0 0 5px #ef5e5e;
+      font-family: "Fjalla One";
+      text-align: center;
+    }
+
+    .infosExp{
+      box-shadow: 0px 5px 5px black;
+      border: 2px solid white;
+      height: 375px;
+      width: 900px;
+      margin: 15px 0 0 150px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      border-radius: 10px;
+      b{
+        text-shadow: 0 0 3px #ef5e5e;
+      }
+    }
+
+    #form {
+      height: 570px;
+      background-color: rgba(90, 126, 84, 0.4);
+      display: flex;
+      flex-direction: column;
+    }
+
+    #formations {
+      color: white;
+      font-size: 60px;
+      text-shadow: 0 0 5px #a0fd91;
+      font-family: "Fjalla One";
+      text-align: center;
+    }
+
+    .infosForm{
+      border: 2px solid white;
+      box-shadow: 0px 5px 5px black;
+      height: 375px;
+      width: 900px;
+      margin: 15px 0 0 150px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      border-radius: 10px;
+      li{
+        font-size: 35px;
+        padding: 10px 0;
+        b{
+          text-shadow: 0 0 3px #a0fd91;
+        }
+      }
+    }
+
+    #cent{
+      height: 570px;
+      background-color: rgba(77, 87, 121, 0.4);
+      display: flex;
+      flex-direction: column;
+    }
+
+    #centre{
+      color: white;
+      font-size: 60px;
+      text-shadow: 0 0 5px #9c9ffc;
+      font-family: "Fjalla One";
+      text-align: center;
+    }
+
+    .infosCent{
+      border: 2px solid white;
+      height: 375px;
+      width: 900px;
+      margin: 15px 0 0 150px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      border-radius: 10px;
+      li{
+        font-size: 25px;
+        padding: 10px 0;
+      }
+    }
+    section{
+      height: 570px;
+    }
+
+    section:nth-child(6) {
+      color: white;
+      height: 400px;
+      background-color: rgba(0, 0, 0, 0.4);
+      text-shadow: 0 0 3px #ffcc58;
+      font-family: "Fjalla One";
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      animation-name: intro;
+      animation-duration: 3s;
+      ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        li{
+          padding: 5px 0;
+          a:link, a:visited{
+            display: flex;
+            justify-content: center;
+            color: white;
+            text-shadow: 0 0 3px #ffcc58;
+            font-family: "Fjalla One";
+          }
+          a:hover{
+            text-decoration: none;
+            color: white;
+            text-shadow: 0 0 20px #ffcc58;
+            transition: 1s;
+          }
+        }
+      }
+    }
+
+    h1 {
+      font-size: 100px;
+      margin-bottom: 0px;
+    }
+
+    p {
+      margin-top: 20px;
+      margin-bottom: 40px;
+      font-size: 25px;
+    }
+
+    h3 {
+      color: white;
+      font-family: "Fjalla One";
+      font-size: 40px;
+      text-shadow: 0 0 3px #6cefef;
+    }
+
+    li{
+      list-style: none;
+      color: white;
+      font-family: "Fjalla One";
+      font-size: 25px;
+      padding-left: 15px;
+    }
+
+    footer{
+      height: 60px;
+      text-align: center;
+      padding-top: 10px;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding-bottom: 10px;
+      a:link, a:visited{
+        text-decoration: none;
+        font-family: "Fjalla One";
+        font-size: 30px;
+        text-shadow: 0 0 3px #ffcc58;
+        color: white;
+      }
+      a:hover{
+        font-family: "Fjalla One";
+        font-size: 30px;
+        color: white;
+        margin-bottom: 10px;
+        text-shadow: 0 0 15px #ffcc58;
+        transition: 1s;
+      }
+    }
+}
+
+.moveRight {
+  animation: moveRight 2s;
+  animation-timing-function: ease;
+}
+
+
+.moveDown {
+  animation: moveDown 2s;
+  animation-timing-function: ease;
+}
+
+@keyframes moveDown{
+  from{height: 0px;}
+  to{height: 570px;}
+}
+
+@keyframes intro{
+  from{background-color: rgba(228, 227, 227, 1);}
+  to{background-color: rgba(0, 0, 0, 0.4)}
+}
+
+@keyframes moveRight {
+  from {width: 0px;}
+  to {width: 900px;}
+}
